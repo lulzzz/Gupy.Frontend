@@ -34,13 +34,7 @@ export default {
       } catch (e) {
         this.showToastError(e);
       }
-    },
-    showToastError(error) {
-      this.$bvToast.toast(`Error: ${error}`, {
-        title: "Error!",
-        variant: "danger",
-      });
-    },
+    }
   },
 };
 </script>
